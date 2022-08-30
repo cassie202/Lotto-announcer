@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #a22657;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: "Tourney", cursive;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #ffbc42;
+}
+
+h1 {
+  font-size: 350%;
+}
+
+h2 {
+  font-size: 200%;
+}
+
+.numbers-container,
+.emoji-wealth {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.number {
+  padding: 20px;
+  border: 4px solid skyblue;
+  min-width: 25px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffbc42;
+}
+
+.emoji-wealth {
+  padding: 20px;
+  font-size: 350%;
+}
